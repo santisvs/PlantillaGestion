@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Plantilla Gestion</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+                <a class="navbar-brand" href="index.jsp">Plantilla Gestión</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -251,7 +251,7 @@
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="login.jsp"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
@@ -280,7 +280,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="index.jsp"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
@@ -915,7 +915,19 @@
             <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
-
+		<footer class="panel-footer">
+		
+		<div class="text-center" .col-xs-12,.col-sm-12 ,.col-md-8 ,.col-lg-8>
+                                <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                                <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                                <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div .col-xs-12 , .col-sm-12 ,.col-md-4,.col-lg-4><p>&copy Santiago Vallejo</p></div>
+		
+		</footer>
     </div>
     <!-- /#wrapper -->
 
